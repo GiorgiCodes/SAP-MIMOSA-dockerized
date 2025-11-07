@@ -1,0 +1,33 @@
+services:
+  dotnet-app:
+    build:
+      context: "./C#"
+      dockerfile: Dockerfile
+    container_name: dotnet-app
+    ports:
+      - "5000:5000"
+    depends_on:
+      - python-app
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+      - PYTHON_API_URL=http://python-app:8000/
+    networks:
+      - app-network
+    profiles:
+      - dev
+
+  python-app:
+    build:
+      context: ./Python
+      dockerfile: Dockerfile
+    container_name: python-app
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+    profiles:
+      - dev
+
+networks:
+  app-network:
+    driver: bridge

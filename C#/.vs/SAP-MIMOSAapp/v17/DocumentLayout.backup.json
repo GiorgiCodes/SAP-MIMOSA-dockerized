@@ -1,0 +1,299 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|c:\\users\\gdavi\\desktop\\sapmimosa_v2\\c#\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\WebApp\\app.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\WebApp\\ai_models.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|c:\\users\\gdavi\\desktop\\sapmimosa_v2\\c#\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\Data\\rawDataOfAIResponses.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Models.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\test_Tests.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\InfoOmitted.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py.bak||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\Data\\webScraper.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\ScoreManager.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\test_sap_checker.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\test_MimosaChecker.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\test_InfoOmmitted.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\SAPChecker.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|c:\\users\\gdavi\\desktop\\sapmimosa_v2\\c#\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|c:\\users\\gdavi\\desktop\\sapmimosa_v2\\c#\\models\\mappingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865C8283-8061-43DF-8B03-7BFED4D9D94D}|SAP-MIMOSAapp.csproj|solutionrelative:models\\mappingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "test_MimosaChecker.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\test_MimosaChecker.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\test_MimosaChecker.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\test_MimosaChecker.py",
+              "RelativeToolTip": "..\\..\\html-page\\test_MimosaChecker.py",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T01:21:51.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "webScraper.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\Data\\webScraper.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\Data\\webScraper.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\Data\\webScraper.py",
+              "RelativeToolTip": "..\\..\\html-page\\Data\\webScraper.py",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T01:07:45.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InfoOmitted.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\InfoOmitted.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\InfoOmitted.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\InfoOmitted.py",
+              "RelativeToolTip": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\InfoOmitted.py",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-07T05:49:28.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\WebApp\\app.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\WebApp\\app.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\WebApp\\app.py",
+              "RelativeToolTip": "..\\..\\html-page\\WebApp\\app.py",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-11T03:12:41.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:22:59.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ai_models.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\WebApp\\ai_models.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\WebApp\\ai_models.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\WebApp\\ai_models.py",
+              "RelativeToolTip": "..\\..\\html-page\\WebApp\\ai_models.py",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-15T02:51:11.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAACkCAAAAAAAAAADwvzQCAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T05:00:30.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "test_sap_checker.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\test_sap_checker.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\test_sap_checker.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\test_sap_checker.py",
+              "RelativeToolTip": "..\\..\\html-page\\test_sap_checker.py",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T01:22:05.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "test_Tests.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\test_Tests.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\test_Tests.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\test_Tests.py",
+              "RelativeToolTip": "..\\..\\html-page\\test_Tests.py",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T01:22:33.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Models.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Models.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\ValidationAndMapping\\Models.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Models.py",
+              "RelativeToolTip": "..\\..\\html-page\\ValidationAndMapping\\Models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T04:02:21.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "rawDataOfAIResponses.json",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\Data\\rawDataOfAIResponses.json",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\Data\\rawDataOfAIResponses.json",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\Data\\rawDataOfAIResponses.json",
+              "RelativeToolTip": "..\\..\\html-page\\Data\\rawDataOfAIResponses.json",
+              "ViewState": "AgIAACclAAAAAAAAAAAAADclAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T10:17:00.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Accuracy.py.bak",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py.bak",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py.bak",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py.bak",
+              "RelativeToolTip": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py.bak",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-17T04:20:11.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Accuracy.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py",
+              "RelativeToolTip": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\Accuracy.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T04:20:12.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "test_InfoOmmitted.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\test_InfoOmmitted.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\test_InfoOmmitted.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\test_InfoOmmitted.py",
+              "RelativeToolTip": "..\\..\\html-page\\test_InfoOmmitted.py",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T01:21:02.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SAPChecker.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\SAPChecker.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\SAPChecker.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\Accuracy\\SAPChecker.py",
+              "RelativeToolTip": "..\\..\\html-page\\ValidationAndMapping\\Accuracy\\SAPChecker.py",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-17T01:19:29.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ScoreManager.py",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\ScoreManager.py",
+              "RelativeDocumentMoniker": "..\\..\\html-page\\ValidationAndMapping\\ScoreManager.py",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\html-page\\ValidationAndMapping\\ScoreManager.py",
+              "RelativeToolTip": "..\\..\\html-page\\ValidationAndMapping\\ScoreManager.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-14T10:49:06.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MappingDocument.cs",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\Models\\MappingDocument.cs",
+              "RelativeDocumentMoniker": "Models\\MappingDocument.cs",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\Models\\MappingDocument.cs",
+              "RelativeToolTip": "Models\\MappingDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:30:33.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAABEDAAAAAAAAAAAAANgCAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-15T04:50:16.673Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

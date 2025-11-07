@@ -1,0 +1,12 @@
+services:
+  dotnet-app:
+    ports:
+      - "80:5000" # Map container port 5000 to host port 80 (public)
+  
+
+  python-app:
+    ports: [] # Do not expose Python to the outside world
+    profiles:
+      - prod
+
+# docker compose -f docker-compose.yml -f docker-compose.prod.yml --profile prod up -d
