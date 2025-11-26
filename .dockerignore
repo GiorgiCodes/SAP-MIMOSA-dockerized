@@ -1,0 +1,13 @@
+.git
+.gitignore
+.dockerignore
+**/bin/
+**/obj/
+**/node_modules/
+**/__pycache__/
+**/.venv/
+**/.vscode/
+**/.idea/
+Dockerfile
+Dockerfile.deploy
+docker-compose.yml

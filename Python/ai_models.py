@@ -58,7 +58,7 @@ class OpenAIModel:
         self.mappings = mappings
         self.systemPrompt = systemPrompt
         # if set up env for api key(check readme.md) keep following, otherwise directly set api key with your key self.apiKey = "YOUR_API_KEY"
-        self.apiKey = "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"
+        self.apiKey = ""
 
     def chat(self):
         if not self.apiKey:

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SAP-MIMOSAapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74481457a4aa15b42e9f726ec9aeb0325d013fe0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SAP-MIMOSAapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SAP-MIMOSAapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

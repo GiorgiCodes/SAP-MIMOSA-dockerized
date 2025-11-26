@@ -5614,11 +5614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\SAP-MIMOSAapp.csproj",
+      "projectUniqueName": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA\\C#\\SAP-MIMOSAapp.csproj",
       "projectName": "SAP-MIMOSAapp",
-      "projectPath": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\SAP-MIMOSAapp.csproj",
+      "projectPath": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA\\C#\\SAP-MIMOSAapp.csproj",
       "packagesPath": "C:\\Users\\gdavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA_V2\\C#\\obj\\",
+      "outputPath": "C:\\Users\\gdavi\\Desktop\\SAPMIMOSA\\C#\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
