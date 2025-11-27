@@ -6701,5 +6701,301 @@
                 "infoOmitted": 0.0
             }
         ]
+    },
+    {
+        "createdAt": "2025-11-28T01:10:54",
+        "mapID": "048",
+        "LLMType": "gpt-4.1",
+        "prompts": [
+            "Generate mapping pairs of Equipment",
+            " use cryptic name for SAP entity name",
+            "Change only Mimosa side",
+            " make sure names match to Mimosa Schema",
+            "Change only Mimosa side",
+            " SAP Equipment corresponding is Mimosa Asset and fix entity and field names"
+        ],
+        "promptHistory": [
+            {
+                "text": "Generate mapping pairs of Equipment, use cryptic name for SAP entity name",
+                "createdAt": "2025-11-28T01:06:57"
+            },
+            {
+                "text": "Change only Mimosa side, make sure names match to Mimosa Schema",
+                "createdAt": "2025-11-28T01:08:52"
+            },
+            {
+                "text": "Change only Mimosa side, SAP Equipment corresponding is Mimosa Asset and fix entity and field names",
+                "createdAt": "2025-11-28T01:10:54"
+            }
+        ],
+        "mappings": [
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "EQUNR",
+                    "description": "Equipment Number (unique identifier for equipment)",
+                    "dataType": "CHAR",
+                    "notes": "Primary key in EQUI table",
+                    "fieldLength": "18"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "AssetID",
+                    "description": "Unique identifier of the Asset in the MIMOSA schema",
+                    "dataType": "String",
+                    "notes": "Primary key of Asset in MIMOSA; corresponds to Asset.AssetID in OSA-EAI standard.",
+                    "fieldLength": "50"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "EQKTX",
+                    "description": "Equipment Short Text (short description of equipment)",
+                    "dataType": "CHAR",
+                    "notes": "Short description field",
+                    "fieldLength": "40"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "ShortDescription",
+                    "description": "Short description or name of the asset (MIMOSA standard field: ShortDescription)",
+                    "dataType": "String",
+                    "notes": "Maps to Asset.ShortDescription in OSA-EAI.",
+                    "fieldLength": "80"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "SERNR",
+                    "description": "Serial Number of Equipment",
+                    "dataType": "CHAR",
+                    "notes": "Unique serial number assigned to equipment",
+                    "fieldLength": "18"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "SerialNumber",
+                    "description": "Serial number of the Asset (MIMOSA standard field: SerialNumber)",
+                    "dataType": "String",
+                    "notes": "Corresponds to Asset.SerialNumber in MIMOSA.",
+                    "fieldLength": "40"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "HERST",
+                    "description": "Manufacturer of Equipment",
+                    "dataType": "CHAR",
+                    "notes": "Manufacturer name or code",
+                    "fieldLength": "30"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "ManufacturerName",
+                    "description": "Name of the asset manufacturer (MIMOSA standard field: ManufacturerName)",
+                    "dataType": "String",
+                    "notes": "Should correspond to Asset.ManufacturerName in MIMOSA.",
+                    "fieldLength": "50"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "TYPBZ",
+                    "description": "Model Number",
+                    "dataType": "CHAR",
+                    "notes": "Model description/number of equipment",
+                    "fieldLength": "30"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "ModelNumber",
+                    "description": "Model number/designation of the asset (MIMOSA standard field: ModelNumber)",
+                    "dataType": "String",
+                    "notes": "Should correspond to Asset.ModelNumber in MIMOSA.",
+                    "fieldLength": "40"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "INVNR",
+                    "description": "Inventory Number",
+                    "dataType": "CHAR",
+                    "notes": "Inventory control number",
+                    "fieldLength": "25"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "InventoryNumber",
+                    "description": "Unique Inventory Number for the Asset (MIMOSA standard field: InventoryNumber)",
+                    "dataType": "String",
+                    "notes": "Maps to Asset.InventoryNumber in MIMOSA.",
+                    "fieldLength": "25"
+                }
+            }
+        ],
+        "prompt": "Change only Mimosa side, SAP Equipment corresponding is Mimosa Asset and fix entity and field names",
+        "accuracyResult": {
+            "accuracyRate": 65.51,
+            "descriptionSimilarity": 55.37,
+            "mimosaSimilarity": 26.67,
+            "sapSimilarity": 80.0,
+            "dataType": 100.0,
+            "infoOmitted": 6.74,
+            "missingFields": {
+                "EQUI": [
+                    "/GEP/AUTOM",
+                    "/GEP/DACHG",
+                    "/GEP/KLIMA",
+                    "/GEP/PASSENGER",
+                    "/GEP/SCHNEEK",
+                    "/GEP/VHCAT",
+                    "/GEP/WINTERR",
+                    "/MRSS/DATACHANGE",
+                    "/MRSS/ID_PROFILE",
+                    "/MRSS/PROF_KEY",
+                    "ACT_CHANGE_AA",
+                    "AEDAT",
+                    "AENAM",
+                    "ANSDT",
+                    "ANSWT",
+                    "APLKZ",
+                    "AULDT",
+                    "BAUJJ",
+                    "BAUMM",
+                    "BEGRU",
+                    "BEGRUI",
+                    "BRGEW",
+                    "BSTVP",
+                    "CHARGE",
+                    "CUOBJ",
+                    "DATLWB",
+                    "ELIEF",
+                    "EMATN",
+                    "EQART",
+                    "EQASP",
+                    "EQBER",
+                    "EQDAT",
+                    "EQEXT_ACTIVE",
+                    "EQLB_DUTY",
+                    "EQLB_HIDE",
+                    "EQLFN",
+                    "EQNUM",
+                    "EQSNR",
+                    "EQTYP",
+                    "EQUI_SNTYPE",
+                    "EQUI_SRTYPE",
+                    "ERDAT",
+                    "ERNAM",
+                    "GERNR",
+                    "GEWEI",
+                    "GROES",
+                    "GWLDT",
+                    "GWLDV",
+                    "GWLEN",
+                    "HANDLE",
+                    "HERLD",
+                    "HZEIN",
+                    "IMRC_POINT",
+                    "INBDT",
+                    "IUID_TYPE",
+                    "KMATN",
+                    "KRFKZ",
+                    "KUNDE",
+                    "LAGER",
+                    "LVORM",
+                    "MANDT",
+                    "MATNR",
+                    "MGANR",
+                    "OBJNR",
+                    "REVLV",
+                    "SERGE",
+                    "SPARTE",
+                    "S_CC",
+                    "S_ELSE",
+                    "S_EQBS",
+                    "S_EQUI",
+                    "S_FHM",
+                    "S_FLEET",
+                    "S_ISU",
+                    "S_KONFI",
+                    "S_SALE",
+                    "S_SERIAL",
+                    "TSEGTP",
+                    "UII",
+                    "UII_PLANT",
+                    "WAERS",
+                    "WARPL",
+                    "WDBWT",
+                    "WERK"
+                ]
+            }
+        },
+        "accuracySingleMappingPair": [
+            {
+                "accuracyRate": 58.99,
+                "descriptionSimilarity": 35.97,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 6.74
+            },
+            {
+                "accuracyRate": 62.38,
+                "descriptionSimilarity": 49.5,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 6.74
+            },
+            {
+                "accuracyRate": 74.63,
+                "descriptionSimilarity": 58.53,
+                "mimosaSimilarity": 60.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 6.74
+            },
+            {
+                "accuracyRate": 64.61,
+                "descriptionSimilarity": 58.44,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 6.74
+            },
+            {
+                "accuracyRate": 60.44,
+                "descriptionSimilarity": 61.78,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 60.0,
+                "dataType": 100.0,
+                "infoOmitted": 6.74
+            },
+            {
+                "accuracyRate": 72.01,
+                "descriptionSimilarity": 68.03,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 100.0,
+                "dataType": 100.0,
+                "infoOmitted": 6.74
+            }
+        ]
     }
 ]
