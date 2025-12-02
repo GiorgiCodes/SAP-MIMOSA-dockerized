@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Start Python Backend in the background
 echo "Starting Python Backend..."
