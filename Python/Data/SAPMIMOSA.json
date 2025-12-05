@@ -6997,5 +6997,261 @@
                 "infoOmitted": 6.74
             }
         ]
+    },
+    {
+        "createdAt": "2025-12-05T22:58:52",
+        "mapID": "049",
+        "LLMType": "gpt-4.1",
+        "prompts": [
+            "Generate Asset and equipment mapping for SAP and MIMOSA",
+            "use cryptic names for SAP"
+        ],
+        "promptHistory": [
+            {
+                "text": "Generate Asset and equipment mapping for SAP and MIMOSA",
+                "createdAt": "2025-12-05T22:57:51"
+            },
+            {
+                "text": "use cryptic names for SAP",
+                "createdAt": "2025-12-05T22:58:52"
+            }
+        ],
+        "mappings": [
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "Anlage",
+                    "fieldName": "ANLAGE_ID",
+                    "description": "Unique identifier for the asset (Anlage) in SAP.",
+                    "dataType": "CHAR",
+                    "notes": "SAP technical name for Asset ID is typically 'ANLAGE' or field 'ANLN1'.",
+                    "fieldLength": "12"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "AssetIdentifier",
+                    "description": "Unique identifier for the asset in MIMOSA.",
+                    "dataType": "String",
+                    "notes": "Used for unique identification across systems.",
+                    "fieldLength": "50"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "EQUNR",
+                    "description": "Unique equipment number (EQUNR) in SAP.",
+                    "dataType": "CHAR",
+                    "notes": "Primary key for equipment table (EQUI-EQUNR).",
+                    "fieldLength": "18"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Equipment",
+                    "fieldName": "EquipmentID",
+                    "description": "Unique identifier for equipment in MIMOSA.",
+                    "dataType": "String",
+                    "notes": "Links directly to the equipment record.",
+                    "fieldLength": "40"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "Anlage",
+                    "fieldName": "TXT50",
+                    "description": "Short text description of the asset.",
+                    "dataType": "CHAR",
+                    "notes": "Usually field 'TXT50' in Asset Master (ANLA).",
+                    "fieldLength": "40"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "AssetName",
+                    "description": "Name or description of the asset.",
+                    "dataType": "String",
+                    "notes": "Generic asset display name.",
+                    "fieldLength": "255"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "EQKTX",
+                    "description": "Short text description (name) for equipment.",
+                    "dataType": "CHAR",
+                    "notes": "Field 'EQKTX' in the EQUI table.",
+                    "fieldLength": "40"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Equipment",
+                    "fieldName": "EquipmentName",
+                    "description": "Equipment item name or description.",
+                    "dataType": "String",
+                    "notes": "Used for human-readable equipment name.",
+                    "fieldLength": "255"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "EQART",
+                    "description": "Equipment category/type code.",
+                    "dataType": "CHAR",
+                    "notes": "Field 'EQART' in EQUI table. Values such as 'P', 'V', etc.",
+                    "fieldLength": "1"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Equipment",
+                    "fieldName": "EquipmentClassCode",
+                    "description": "Classification code for equipment category.",
+                    "dataType": "String",
+                    "notes": "Allows for mapping to equipment classes.",
+                    "fieldLength": "10"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "Anlage",
+                    "fieldName": "STANDORT",
+                    "description": "Location of the asset (Anlage).",
+                    "dataType": "CHAR",
+                    "notes": "Field 'STANDORT' in asset master (ANLA).",
+                    "fieldLength": "10"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Asset",
+                    "fieldName": "LocationIdentifier",
+                    "description": "Reference to the asset's location.",
+                    "dataType": "String",
+                    "notes": "Links to MIMOSA location entity.",
+                    "fieldLength": "50"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "HERST",
+                    "description": "Manufacturer of equipment (EQUI-HERST).",
+                    "dataType": "CHAR",
+                    "notes": "Stores manufacturer name or code.",
+                    "fieldLength": "30"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Equipment",
+                    "fieldName": "ManufacturerName",
+                    "description": "Name of the equipment manufacturer.",
+                    "dataType": "String",
+                    "notes": "Standardized manufacturer name field.",
+                    "fieldLength": "100"
+                }
+            },
+            {
+                "sap": {
+                    "platform": "SAP",
+                    "entityName": "EQUI",
+                    "fieldName": "SERIALNR",
+                    "description": "Serial number of equipment (EQUI-SERIALNR).",
+                    "dataType": "CHAR",
+                    "notes": "Unique serial number as per manufacturer.",
+                    "fieldLength": "18"
+                },
+                "mimosa": {
+                    "platform": "MIMOSA",
+                    "entityName": "Equipment",
+                    "fieldName": "SerialNumber",
+                    "description": "Serial number for equipment.",
+                    "dataType": "String",
+                    "notes": "Used to differentiate equipment items.",
+                    "fieldLength": "100"
+                }
+            }
+        ],
+        "prompt": "use cryptic names for SAP",
+        "accuracyResult": {
+            "accuracyRate": 57.72,
+            "descriptionSimilarity": 75.86,
+            "mimosaSimilarity": 7.5,
+            "sapSimilarity": 47.5,
+            "dataType": 100.0,
+            "infoOmitted": 5.62
+        },
+        "accuracySingleMappingPair": [
+            {
+                "accuracyRate": 45.86,
+                "descriptionSimilarity": 63.45,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 0.0,
+                "dataType": 100.0,
+                "infoOmitted": 0.0
+            },
+            {
+                "accuracyRate": 56.89,
+                "descriptionSimilarity": 47.57,
+                "mimosaSimilarity": 0.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 5.62
+            },
+            {
+                "accuracyRate": 50.88,
+                "descriptionSimilarity": 83.5,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 0.0,
+                "dataType": 100.0,
+                "infoOmitted": 0.0
+            },
+            {
+                "accuracyRate": 65.99,
+                "descriptionSimilarity": 83.95,
+                "mimosaSimilarity": 0.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 5.62
+            },
+            {
+                "accuracyRate": 62.32,
+                "descriptionSimilarity": 89.28,
+                "mimosaSimilarity": 0.0,
+                "sapSimilarity": 60.0,
+                "dataType": 100.0,
+                "infoOmitted": 5.62
+            },
+            {
+                "accuracyRate": 47.95,
+                "descriptionSimilarity": 71.79,
+                "mimosaSimilarity": 20.0,
+                "sapSimilarity": 0.0,
+                "dataType": 100.0,
+                "infoOmitted": 0.0
+            },
+            {
+                "accuracyRate": 65.68,
+                "descriptionSimilarity": 82.73,
+                "mimosaSimilarity": 0.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 5.62
+            },
+            {
+                "accuracyRate": 66.15,
+                "descriptionSimilarity": 84.61,
+                "mimosaSimilarity": 0.0,
+                "sapSimilarity": 80.0,
+                "dataType": 100.0,
+                "infoOmitted": 5.62
+            }
+        ]
     }
 ]
